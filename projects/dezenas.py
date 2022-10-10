@@ -23,3 +23,7 @@ O dígito das dezenas é 0
 
 Dica: O operador "//" faz uma divisão inteira jogando fora o resto, ou seja, aquilo que é menor que o divisor. O operador "%" devolve apenas o resto da divisão inteira jogando fora o resultado, ou seja, tudo que é maior ou igual ao divisor.
 '''
+n = int(input("Digite um número inteiro: "))
+digito = (n // 10) % 10
+
+print("O dígito das dezenas é", digito)
