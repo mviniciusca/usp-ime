@@ -1,4 +1,4 @@
-n = int(input("Digite um número: "))
+n = int(input())
 
 if (n % 2) != 0:
     print("ímpar")
