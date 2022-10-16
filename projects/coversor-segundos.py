@@ -18,6 +18,7 @@ Saída de Dados:
 segundos = int(
     input("Por favor, entre com o número de segundos que deseja converter: "))
 
+
 dia = segundos // 86400
 hora = (segundos % 86400) // 3600
 minuto = ((segundos % 86400) % 3600) // 60
